@@ -34,17 +34,5 @@ test.describe('Search by Brand', () => {
         await page.locator('(//a[contains(.,"Prada")])[1]').isVisible()
         await homePage.delayExecution(2000)
     })
-       
-       
-        //search text on the page
-        //await page.waitForFunction('document.querySelector("body").innerText.includes("Pre-Order your shoes today")')
-    
-    
-        //await page.click('text=Search')
-
-        //await page.waitForFunction('document.querySelector("body").innerText.includes("Please Select a Brand")')
-
-        //await page.click('text=January')
-
 })
 
